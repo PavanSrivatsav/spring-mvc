@@ -7,7 +7,9 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<input type="text" id="userTxt" />
-	<button type="submit">Submit</button>
+	<form action="process-form">
+		<input type="text" id="userTxt" name="studentName" />
+		<button type="submit">Submit</button>
+	</form>
 </body>
 </html>

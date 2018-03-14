@@ -11,6 +11,9 @@ public class HelloWorldController {
 		return "main-form";
 	}
 
-
+	@RequestMapping("/process-form")
+	public String displayName() {
+		return "hello-student";
+	}
 
 }

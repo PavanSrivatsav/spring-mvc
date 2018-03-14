@@ -4,12 +4,10 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Home Page</title>
+<title>Insert title here</title>
 </head>
 <body>
-	<h1>Home Page</h1>
-	<hr>
-	<a href="show-form">Show Form</a>
-	<!-- show-form is the method name which calls main-form.jsp -->
+	Hello ${param.studentName}
+	<!-- param is used to read name attribute -->
 </body>
 </html>
