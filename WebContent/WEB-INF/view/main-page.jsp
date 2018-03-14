@@ -9,7 +9,7 @@
 <body>
 	<h1>Home Page</h1>
 	<hr>
-	<a href="show-form">Show Form</a>
+	<a href="form/show-form">Show Form</a>
 	<!-- show-form is the method name which calls main-form.jsp -->
 </body>
 </html>
