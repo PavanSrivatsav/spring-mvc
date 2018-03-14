@@ -4,11 +4,17 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Insert title here</title>
+<title>Sample Form</title>
 </head>
 <body>
 	<form action="process-form">
 		<input type="text" id="userTxt" name="studentName" />
+		<button type="submit">Submit</button>
+	</form>
+	<br>
+	<br>
+	<form action="process-form-from-req-params">
+		<input type="text" name="studName" />
 		<button type="submit">Submit</button>
 	</form>
 </body>

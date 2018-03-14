@@ -4,10 +4,14 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Insert title here</title>
+<title>Processed Form</title>
 </head>
 <body>
 	Hello ${param.studentName}
 	<!-- param is used to read name attribute -->
+
+	<hr>
+	${wishStudentModel}
+	<!--  reading from created model in displayNameFromParams() -->
 </body>
 </html>
